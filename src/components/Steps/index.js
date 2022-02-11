@@ -30,10 +30,6 @@ const Steps = ({step, totalSteps}) => {
                 resizeMode="contain"
                 source={step == totalSteps ? StepCurrent : step > totalSteps ? StepDone : StepNext}
             />
-            {/* <Step
-                source={step == totalSteps ? StepCurrent : step > totalSteps ? StepDone : StepNext}
-                resizeMode="contain"
-            />            */}
         </View>
     );
 };
